@@ -8,24 +8,25 @@
     body {
       margin: 0;
       padding: 0;
-      background: url('waitlist.webp') no-repeat center center fixed;
-      background-size: cover;
+      background: linear-gradient(to bottom right, #c287f1, #b487f1);
       font-family: sans-serif;
-    }
-
-    .overlay {
-      width: 100%;
-      height: 100vh;
-      background: rgba(0, 0, 0, 0); /* Transparent overlay if needed */
       display: flex;
       justify-content: center;
       align-items: center;
+      height: 100vh;
+    }
+
+    .container img {
+      width: 90%;
+      max-width: 400px;
+      height: auto;
+      display: block;
     }
   </style>
 </head>
 <body>
-  <div class="overlay">
-    <!-- You can add interactive elements later here if needed -->
+  <div class="container">
+    <img src="waitlist.webp" alt="Spokna Waitlist Design" />
   </div>
 </body>
 </html>
