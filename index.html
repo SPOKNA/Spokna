@@ -16,21 +16,27 @@
       font-family: sans-serif;
       display: flex;
       justify-content: center;
-      align-items: center;
-      height: 100vh;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 100%;
+      text-align: center;
     }
 
     .container img {
-      width: 95vw;
-      max-width: 500px;
+      width: 100%;
+      max-width: 450px;
       height: auto;
       border-radius: 12px;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 500px) {
       .container img {
-        width: 90vw;
+        max-width: 90vw;
       }
     }
   </style>
