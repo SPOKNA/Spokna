@@ -1,70 +1,62 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom right, #d1aaff, #b28dff);
-  color: white;
+  background: linear-gradient(135deg, #d3a1f8, #b18ef4);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 100vh;
+  color: white;
   text-align: center;
 }
 
 .container {
   max-width: 400px;
-  width: 90%;
-  padding: 20px;
+  padding: 2rem;
 }
 
 .logo {
-  width: 80px;
+  width: 100px;
   margin-bottom: 20px;
 }
 
-.title {
-  font-size: 2.5rem;
-  margin: 10px 0;
-  color: #4b0082;
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #4c1d95;
 }
 
-.subtitle {
+h2 {
   font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.description {
-  font-size: 1rem;
-  margin-bottom: 20px;
+  font-weight: bold;
+  line-height: 1.4;
 }
 
 .email-form {
+  margin-top: 1.5rem;
   display: flex;
-  gap: 10px;
-  flex-direction: row;
-  background: white;
+  gap: 0;
   border-radius: 8px;
   overflow: hidden;
 }
 
 .email-form input {
   flex: 1;
+  padding: 0.75rem;
   border: none;
-  padding: 12px;
   font-size: 1rem;
-  outline: none;
 }
 
 .email-form button {
-  background-color: #4b0082;
+  background-color: #4c1d95;
   color: white;
+  padding: 0.75rem 1.25rem;
   border: none;
-  padding: 12px 20px;
-  font-size: 1rem;
   cursor: pointer;
-  transition: background 0.2s ease;
+  font-weight: bold;
+  transition: background 0.3s ease;
 }
 
 .email-form button:hover {
-  background-color: #36005e;
+  background-color: #6b21a8;
 }
